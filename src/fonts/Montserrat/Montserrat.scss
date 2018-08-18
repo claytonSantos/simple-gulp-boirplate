@@ -1,0 +1,5 @@
+@import "../fontsMixin.scss";
+
+@include font-face('../fonts/Montserrat', 'Montserrat', 'Montserrat-Regular', regular, 400);
+@include font-face('../fonts/Montserrat', 'Montserrat','Montserrat-Medium', medium, 500);
+@include font-face('../fonts/Montserrat', 'Montserrat','Montserrat-SemiBold',semi-bold, 600);

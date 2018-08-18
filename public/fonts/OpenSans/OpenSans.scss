@@ -1,0 +1,4 @@
+@import "../fontsMixin.scss";
+
+@include font-face('../fonts/OpenSans', 'Open Sans', 'OpenSans-Regular', regular, 400);
+@include font-face('../fonts/OpenSans', 'Open Sans', 'OpenSans-SemiBold', semi-bold, 600);

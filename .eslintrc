@@ -1,0 +1,24 @@
+// "off" or 0 - turn the rule off
+// "warn" or 1 - turn the rule on as a warning (doesn't affect exit code)
+// "error" or 2 - turn the rule on as an error (exit code will be 1)
+
+{
+	"extends": "eslint:recommended",
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true
+	},
+	"rules":{
+		"no-unused-vars": 1,
+		"no-console": 1,
+		"no-alert" : 2,
+		"no-empty": 2,
+		"no-empty-function": 2,
+		"no-eq-null": 2,
+		"no-redeclare": 2,
+		"no-self-assign": 2,
+		"no-fallthrough": 2
+	}
+}
+
